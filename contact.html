@@ -1,0 +1,93 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Home Page</title>
+<link rel="stylesheet" href="index.css">
+
+</head>
+
+<body>
+<header>
+  <div>
+	<a href="index.html"><img class= "logo" src="images/gslogo.PNG"  alt="logo_img"/></a> </div>
+	 <div class="nav-all"> <nav>
+		  <ul>
+			  
+		<a href="index.html"><button class= "button-nav">Home</button></a>
+	 <a href="about.html"><button class="button-nav">About</button></a>
+	 <a href="projects.html"><button class="button-nav">Projects</button></a>
+	  <a href="skills.html"><button class="button-nav">Skills</button></a> 
+	  <a href="contact.html"><button class="button-nav">Contact</button></a>
+		  </ul>
+	  </nav>
+	</div>
+</header>
+	<br>
+	<main>
+	<div class="colluns">
+		
+        
+     <div class="intro-text">
+      <h2 class="h2-intro">Get in Touch!</h2>
+      <p class="subtitle-intro">Whether you’re interested in <span class="highlight-orange">collaboration</span>, or <span class="highlight-orange">feedback</span>,<br> 
+      I would love to hear from you!</p>
+     
+		 
+
+<form action= "mailto:gdasilvados@my.smmcd.edu" method="post" enctype="text/plain">
+  <label for="fname">First name:</label><br>
+  <input type="text" id="fname" name="fname" value=""><br>
+  <label for="lname">Last name:</label><br>
+  <input type="text" id="lname" name="lname" value=""><br><br>
+	<label for="message">Comments:</label><br>
+	<textarea cols="50" rows="5" name="message"></textarea><br><br>
+	
+	<h3 class="form-hs">Was the information in this portifolio useful?</h3>
+  <input type="radio" id="yes" name="useful_yes_no" value="Yes">
+  <label for="Yes">Yes</label><br>
+  <input type="radio" id="no" name="useful_yes_no" value="no">
+  <label for="no">No</label><br>
+  <input type="radio" id="not sure" name="useful_yes_no" value="not sure">
+  <label for="not sure">Not Sure</label><br>
+	<br>
+	<h3 class="form-hs">What services are you interested in?</h3>
+  <input type="checkbox" id="UI/UX" name="service1" value="UI/UX">
+  <label for="service1"> UI/UX</label><br>
+  <input type="checkbox" id="WebDesign" name="service2" value="WebDesign">
+  <label for="service2"> Web Design</label><br>
+  <input type="checkbox" id="GraphicDesign" name="service3" value="GraphicDesign">
+  <label for="service3"> Graphic Design</label><br>
+	<input type="checkbox" id="service4" name="service4" value="Other">
+  <label for="service4"> Other</label><br><br>
+	
+	<label for="position"><h3 class="form-hs" >What kind of position are you looking to fill?</h3> </label>
+	<select name="position" id="position">
+	<option value="full-time">Full-Time</option><br>
+		<option value="part-time">Part-Time</option><br>
+		<option value="Freelance">Freelance</option><br>
+		<option value="other">Other</option><br>
+	</select>
+	<br><br>
+  <input type="submit" value="Submit">
+</form> 
+
+
+		 
+	
+     </div>
+			</div>
+
+</main>
+	<footer>
+		<div class= "footer">
+	<div class= "copyright"><p class= "copyright-text">All rights reserved &#169; Geiziane Santos </p>
+		</div>
+			<div class= "footer_socialmedia"> 
+				<p><a href="https://www.linkedin.com/in/geiziane-santos/">Linkedin</a> | <a href="mailto:someone@example.com"> EMAIL</a></p>
+			</div>
+	</div>
+	</footer>
+
+</body>
+</html>
