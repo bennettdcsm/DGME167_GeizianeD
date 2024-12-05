@@ -346,6 +346,10 @@ fotter{
 
 /*SKILLS*/
 
+.skills-language{
+	margin-left: 35px;
+}
+
 .skills-side-by-side{
 	display: inline-block;
 	margin-right: 10px;
